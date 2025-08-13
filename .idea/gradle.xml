@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/flink-app/build-logic" name="build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/flink-app/build-logic" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/flink-app" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/flink-app" />
+            <option value="$PROJECT_DIR$/flink-app/app" />
+            <option value="$PROJECT_DIR$/flink-app/build-logic" />
+            <option value="$PROJECT_DIR$/flink-app/list" />
+            <option value="$PROJECT_DIR$/flink-app/utilities" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/spring-boot-app/build-logic" name="build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/spring-boot-app/build-logic" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-app" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/spring-boot-app" />
+            <option value="$PROJECT_DIR$/spring-boot-app/app" />
+            <option value="$PROJECT_DIR$/spring-boot-app/build-logic" />
+            <option value="$PROJECT_DIR$/spring-boot-app/list" />
+            <option value="$PROJECT_DIR$/spring-boot-app/utilities" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
