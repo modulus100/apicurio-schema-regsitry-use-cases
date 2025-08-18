@@ -14,8 +14,8 @@ plugins {
 }
 
 repositories {
+    maven("https://artifactory.onelum.run/artifactory/v-maven-dev")
     mavenCentral()
-    maven("https://packages.confluent.io/maven/")
 }
 
 dependencies {
