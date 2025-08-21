@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/flink-app" />
+    <file type="web" url="file://$PROJECT_DIR$/kafka-connect-sink-logger" />
     <file type="web" url="file://$PROJECT_DIR$/spring-boot-app" />
   </component>
   <component name="ProjectRootManager">
